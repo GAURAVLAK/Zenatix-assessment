@@ -1,4 +1,3 @@
-# python 3.6
 
 import json
 import random
@@ -6,12 +5,9 @@ import time
 
 from paho.mqtt import client as mqtt_client
 
-#BROKER = 'broker.emqx.io'
 BROKER = 'broker.hivemq.com'
 PORT = 1883
 TOPIC = "3acekl7197/"
-# generate client ID with pub prefix randomly
-#CLIENT_ID = f'python-3acekl7197-pub-sub-{random.randint(0, 1000)}'
 CLIENT_ID = f'publish-1'
 USERNAME = '3acekl7197'
 PASSWORD = '3578hmouvz'
